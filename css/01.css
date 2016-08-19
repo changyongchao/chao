@@ -1,0 +1,213 @@
+main>div {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#pic {
+	float: left;
+	width: 270px;
+	height: 120px;
+}
+
+#_1 {
+	width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+#search {
+	display: inline-block;
+	height: 50px;
+	width: 650px;
+	margin-top: 30px;
+	margin-left: 30px;
+	border: 3px solid orange;
+}
+
+#sel,
+#sea,
+#btn {
+	height: 44px;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#sea {
+	width: 490px;
+	height: 44px;
+	padding-left: 10px;
+	border: none;
+}
+
+#sel {
+	padding-left: 10px;
+}
+
+#sel option {
+	border: 1px solid orange;
+	border-top-style: none;
+	border-bottom-style: none;
+}
+
+#btn {
+	float: right;
+	width: 50px;
+	font-size: 16px;
+	color: white;
+	background-color: orange;
+}
+
+#small {
+	font-size: 14px;
+	color: darkgray;
+}
+
+#btn_2 {
+	display: inline-block;
+	position: absolute;
+	margin-top: 30px;
+}
+
+#btn_2_0 {
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	background-color: orange;
+}
+
+#btn_2_0>a {
+	font-size: 16px;
+	line-height: 50px;
+	color: white;
+}
+
+#btn_2_0>a:after {
+	content: '\25bc';
+	font-size: 10px;
+}
+
+#btn_2_0>a:hover:after {
+	content: '\25b2';
+	font-size: 10px;
+}
+
+#text {
+	width: 650px;
+	height: 30px;
+	padding-left: 30px;
+	left: 230px;
+	line-height: 30px;
+	font-size: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#text span a {
+	display: inline;
+	font-size: 14px;
+	color: orange;
+}
+
+#text a:hover {
+	color: orange;
+}
+
+#dis {
+	position: absolute;
+	display: none;
+	right: 0;
+	width: 300px;
+	background-color: white;
+	z-index: 1000;
+}
+
+#dis_0 {
+	height: 70px;
+	margin: 0 20px;
+	border-bottom: 1px dotted gainsboro;
+}
+
+#dis_0>span {
+	line-height: 70px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#dis_1 {
+	margin: 30px 50px;
+	padding: 0;
+}
+
+#dis_1>div {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#dis_1>div p {
+	margin: 0;
+	padding-left: 10px;
+	line-height: 20px;
+}
+
+#dis_1>div p:first-child {
+	font-size: 12px;
+	opacity: 0.5;
+}
+
+#dis_1>div p:last-child {
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+#dis_pub {
+	height: 40px;
+	width: 200px;
+	margin: 0 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 300;
+	color: white;
+	background-color: orange;
+}
+
+#dis_text {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
+	padding: 20px;
+	background-color: darkgray;
+}
+
+#dis_text>div>div {
+	width: 180px;
+}
+
+.dis_tex_1 span {
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	opacity: 0.8;
+}
+
+.dis_tex_1 span:first-child {
+	color: orange;
+}
+
+.dis_tex_1 span a:hover {
+	color: orange;
+}
+
+.dis_tex_2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.dis_tex_2 span {
+	font-size: 14px;
+	opacity: 0.6;
+}

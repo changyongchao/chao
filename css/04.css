@@ -1,0 +1,107 @@
+#_4 {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#_4_first,
+#_4_secend {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+._4_flex {
+	display: flex;
+	width: 588px;
+	height: 307px;
+	border: 1px solid gainsboro;
+	margin-top: 20px;
+}
+
+.flex_1 {
+	display: flex;
+	justify-content: space-between;
+	width: 387px;
+	height: 50px;
+	border-bottom: 1px solid gainsboro;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+.flex_1 h2,
+.flex_1 h5 {
+	margin: 0;
+	line-height: 50px;
+	opacity: 0.7;
+}
+
+.flex_1 h5 {
+	color: gray;
+}
+
+.flex_1 h2:before {
+	content: '\258a';
+	color: orange;
+}
+
+.flex_1 h5:before {
+	content: '·';
+}
+
+.flex_2 {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.flex_2 table {
+	width: 200px;
+	height: 88px;
+}
+
+.flex_2 table:last-child {
+	padding-top: 15px;
+}
+
+.flex_2 table td {
+	width: 40%;
+}
+
+.flex_2 table tr td:first-child {
+	width: 20%;
+	padding-right: 10px;
+	padding-left: 0;
+	text-align: center;
+}
+
+.flex_2 table tr td:first-child a {
+	font-size: 14px;
+	font-weight: bold;
+	color: inherit;
+}
+
+.flex_2 table tr td:first-child a:hover {
+	color: inherit;
+}
+
+.flex_2 table td a {
+	font-size: 13px;
+	color: orange;
+}
+
+.flex_2 table td a:hover {
+	color: orange;
+}
+
+.flex_2 div:last-child {
+	height: 196px;
+	border-left: 1px solid gainsboro;
+	padding-left: 20px;
+}
+
+.flex_2 div:last-child a:first-child img {
+	margin-bottom: 18px;
+	padding: 0;
+}

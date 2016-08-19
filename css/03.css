@@ -1,0 +1,265 @@
+#_3 {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#ft {
+	display: flex;
+	height: 80px;
+	width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	padding-right: 0;
+	border: 1px solid gainsboro;
+}
+
+#ft>div {
+	display: flex;
+	width: 33.33333%;
+	margin-right: 20px;
+	border-right: 1px dotted gray;
+}
+
+#ft>div:last-child {
+	border: none;
+	margin: 0;
+}
+
+#ft>div>div {
+	width: 60px;
+	height: 40px;
+	height: 60px;
+	line-height: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#ft ul {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#ft ul li {
+	float: right;
+	width: 25%;
+	font-size: 14px;
+	list-style: none;
+	opacity: 0.6;
+}
+
+#pinpai {
+	display: flex;
+	height: 210px;
+	margin-top: 15px;
+}
+
+#pinpai table {
+	margin-left: 5px;
+}
+
+#pinpai table td {
+	position: relative;
+	width: 169px;
+	height: 105px;
+	border: 1px solid gainsboro;
+	border-right: none;
+	overflow: hidden;
+}
+
+
+/*#pinpai table td img{
+	position: absolute;
+	top: 0;
+	z-index: -100;
+}*/
+
+#pinpai table tr:first-child td {
+	border-bottom: none;
+}
+
+#pinpai table tr td:last-child {
+	border-right: 1px solid gainsboro;
+}
+
+#pinpai table td>a {
+	display: block;
+	position: absolute;
+	top: 105px;
+	width: 169px;
+	height: 105px;
+}
+
+#pinpai table a div {
+	/*display: none;*/
+	width: 100%;
+	height: 105px;
+	text-align: center;
+	color: orange;
+	background-color: rgba(255, 165, 0, 0.6);
+}
+
+#pinpai table a div p {
+	margin: 0;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+
+#pinpai table a div div {
+	width: 80px;
+	height: 25px;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 30px;
+	line-height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: white;
+}
+
+#last {
+	text-align: center;
+}
+
+#last a {
+	font-size: 14px;
+	color: gray !important;
+}
+
+#sp {
+	display: flex;
+	margin-top: 30px;
+}
+
+#sp_first {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#sp span {
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 18px;
+	text-align: center;
+}
+
+#sp span a {
+	color: gray;
+}
+
+#sp span a:hover {
+	color: orange;
+}
+
+#sp ins {
+	padding-top: 5px;
+	line-height: 6px;
+	font-size: 12px;
+	opacity: 0.2;
+}
+
+#scr {
+	position: relative;
+	width: 100%;
+	height: 220px;
+	margin-top: 15px;
+	padding: 25px;
+	text-align: center;
+	overflow: hidden;
+	background-color: snow;
+}
+
+#scr_bj {
+	position: absolute;
+	width: 2400px;
+	height: 220px;
+}
+
+.scr_stage {
+	display: flex;
+	position: absolute;
+	width: 1200px;
+	height: 220px;
+}
+
+.two {
+	left: 1200px;
+}
+
+.one {
+	left: 0
+}
+
+#scr img {
+	margin: 10px;
+}
+
+.scr_0 {
+	display: flex;
+	width: 33.3333%;
+	height: 100%;
+}
+
+.scr_first {
+	font-size: 14px !important;
+	color: black !important;
+}
+
+.scr_1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.scr_1:last-child {
+	margin-top: 20px;
+}
+
+.scr_1 span:first-child {
+	width: 100%;
+	text-align: left;
+}
+
+.scr_1 span {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.scr_1 span a {
+	font-size: 12px;
+	color: orange;
+}
+
+.scr_1 span a:hover {
+	color: orange !important;
+}
+
+#scr_btns {
+	width: 60px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.scr_btn {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: lightgray;
+}
+
+.scr_btn:hover {
+	background-color: orange;
+}
+
+.bl {
+	color: gray !important;
+}
+
+.flex_2 .bl:hover,
+#ft a:hover,
+.scr_0>div>a:hover {
+	color: orange !important;
+}
